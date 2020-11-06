@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer components {
+    .item-nav-bar{
+        @apply font-normal text-gray-400 border-b-4 border-transparent transition duration-150 ease-in-out;
+    }
+
+    .item-nav-bar:hover{
+        @apply text-white border-green-demo;
+    }
+
+    .btn-success{
+        @apply border border-transparent text-sm leading-6 font-normal rounded-md text-white bg-green-demo transition duration-150 ease-in-out;
+    }
+
+    .btn-success:hover{
+        @apply text-green-demo bg-transparent border-green-demo;
+    }
+
+    .btn-success:focus{
+        @apply outline-none border-green-500 shadow-outline-green;
+    }
+}
