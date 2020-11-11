@@ -21,8 +21,6 @@ window.Vue = require('vue');
 
 Vue.component('proyectos-destacados', require('./components/ProyectosDestacados.vue').default);
 Vue.component('diseno-1', require('./components/Disenos/Diseno1.vue').default);
-Vue.component('diseno-2', require('./components/Disenos/Diseno2.vue').default);
-
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

@@ -1,12 +1,9 @@
 <template>
     <div>
         <div v-for="(proyecto, index) in proyectos" :key="index">
-            <diseno-2 v-if="index % 2 !== 0"
-                :proyecto="proyecto"    
-            >
-            </diseno-2>
-            <diseno-1 v-else
-                :proyecto="proyecto"    
+            <diseno-1
+                :proyecto="proyecto"
+                :index="index" 
             >
             </diseno-1>
         </div>
@@ -16,12 +13,10 @@
 <script>
     import axios from 'axios';
     import Diseno1 from '@/js/components/Disenos/Diseno1.vue';
-    import Diseno2 from '@/js/components/Disenos/Diseno2.vue';
 
     export default {
         components:{
             Diseno1   : Diseno1,
-            Diseno2   : Diseno2
         },
         props:{
           /*empresa:{
