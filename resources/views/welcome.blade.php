@@ -94,7 +94,6 @@
                     </div>
                 </div>
             </div>
-            
         </section>
         <section id="nosotros" class="bg-grey-demo w-full content-center">
             <div class="text-center text-white text-2xl md:text-3xl px-2 pt-10 md:pt-16">17 años de experiencia en pos de tu proyecto</div>
@@ -103,62 +102,64 @@
             <div class="text-justify lg:text-center text-gray-500 pt-4 px-4 md:px-28 lg:px-48">
                 Especializados desde 1996 en usabilidad, experiencia de usuario (UX) y diseño de experiencias de proyectos digitales. Aportamos estrategia e innovación centrada en el usuario y los objetivos de negocio de tu proyecto. Cotrabajando mejoraremos tu tasa de conversión, KPI's, ROI y los resultados de tu actual publicidad PPC (Pay per click).
             </div>
-            <div id="servicios" class="grid grid-cols-1 md:grid-cols-3 text-center pt-4 md:pt-16">
-                <div class="bg-gray-700">
-                    <div class="px-16 py-20">
+
+            <div id="servicios" class="flex flex-col md:flex-row items-center text-center pt-4 md:pt-16">
+                <div class="flex-1 bg-gray-700">
+                    <div class="py-20">
                         <div class="text-green-demo text-xl">Estrategia, usabilidad & ux</div>
-                        <div class="text-gray-500 text-sm px-8 mt-2">Te ofrecemos excelente usabilidad y experiencia del usuario en tu proyecto, junto a una visión innovadora</div>
+                        <div class="text-gray-500 text-sm px-10 md:px-0 mt-2 lg:px-24">Te ofrecemos excelente usabilidad y experiencia del usuario en tu proyecto, junto a una visión innovadora</div>
                     </div>
                 </div>
-                <div class="bg-grey-demo-1c">
-                    <div class="px-16 py-20">
+                <div class="flex-1 bg-grey-demo-1c">
+                    <div class="py-20">
                         <div class="text-green-demo text-xl">Mejoramos la experiencia</div>
-                        <div class="text-gray-500 text-sm px-8 mt-2">Tangibilizamos tu proyecto digital a través de un diseño centrado en el usuario y en técnicas avanzadas</div>
+                        <div class="text-gray-500 text-sm px-10 md:px-0 mt-2 lg:px-24">Tangibilizamos tu proyecto digital a través de un diseño centrado en el usuario y en técnicas avanzadas</div>
                     </div>
                 </div>
-                <div class="bg-gray-800">
-                    <div class="px-16 py-20">
+                <div class="flex-1 bg-gray-800">
+                    <div class="py-20">
                         <div class="text-green-demo text-xl">Medición continua de objetivos</div>
-                        <div class="text-gray-500 text-sm px-8 mt-2">Implementación, testing con usuarios y medición continua son necesarias para garantizar el éxito de tu proyecto</div>
+                        <div class="text-gray-500 text-sm px-10 md:px-0 mt-2 lg:px-24">Implementación, testing con usuarios y medición continua son necesarias para garantizar el éxito de tu proyecto</div>
                     </div>
                 </div>
             </div>
+
             <div id="proyectos" class="text-center text-white text-2xl md:text-3xl px-2 pt-10 md:pt-28">Proyectos destacados</div>
             <div class="text-center"><span class="border-green-demo border-t-2 text-transparent">---------</span></div>
             <div class="text-justify lg:text-center text-gray-500 pt-4 pb-10 px-4 md:px-28 lg:px-48">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis quam non nisl rutrum, scelerisque sodales est finibus. Vivamus rutrum, enim ac scelerisque eleifend, ex neque accumsan turpis, vel fermentum orci tellus placerat ex.
             </div>
         </section>
-        
-        <section>
+
+        <section class="flex flex-col">
             <proyectos-destacados></proyectos-destacados>
         </section>    
-
-        <section class="bg-grey-demo w-full content-center pb-10">
+        
+        <section class="bg-grey-demo w-full content-center pb-20">
             <div class="text-center text-white text-2xl md:text-3xl px-2 pt-10 md:pt-16">Lo que dicen nuestros clientes</div>
             <div class="text-center"><span class="border-green-demo border-t-2 text-transparent">---------</span></div>
-            <div id="equipo" class="grid grid-cols-1 md:grid-cols-3 text-center pt-4 md:pt-16">
-                <div class="h-96">
-                    <div class="px-8 pt-40 md:pt-24 lg:pt-40 h-full bg-cover bg-center" style="background-image: url({{asset('img/client1.png')}}">
-                        <div class="text-gray-300 text-xl font-light mb-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
-                        <div class="pt-24 md:pt-32 lg:pt-24">
-                            <div class="text-white font-semibold text-xs px-8">Cristobal Fernandez - CEO Copec</div>
+            <div id="equipo" class="flex flex-col md:flex-row text-center content-center">
+                <div class="flex-1 h-96">
+                    <div class="flex flex-col h-full bg-cover bg-center pt-32" style="background-image: url({{asset('img/client1.png')}}">
+                        <div class="flex-1 text-gray-300 text-xl font-light mb-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                        <div class="flex-1">
+                            <div class="text-white font-semibold text-xs pt-16">Cristobal Fernandez - CEO Copec</div>
                         </div>
                     </div>
                 </div>
-                <div class="h-96">
-                    <div class="px-8 pt-40 md:pt-24 lg:pt-40 h-full bg-cover bg-center" style="background-image: url({{asset('img/client2.png')}}">
-                        <div class="text-gray-300 text-xl font-light mb-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
-                        <div class="pt-10 md:pt-10 lg:pt-16">
-                            <div class="text-white font-semibold text-xs px-8">Maria Paz Segers - Lead Digital BBVA</div>
+                <div class="flex-1 h-96">
+                    <div class="flex flex-col h-full bg-cover bg-center pt-32" style="background-image: url({{asset('img/client2.png')}}">
+                        <div class="flex-1 text-gray-300 text-xl font-light mb-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+                        <div class="flex-1">
+                            <div class="text-white font-semibold text-xs pt-16">Maria Paz Segers - Lead Digital BBVA</div>
                         </div>
                     </div>
                 </div>
-                <div class="h-96">
-                    <div class="px-8 pt-40 md:pt-24 lg:pt-40 h-full bg-cover bg-center" style="background-image: url({{asset('img/client3.png')}}">
-                        <div class="text-gray-300 text-xl font-light mb-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. t, consectetur adipiscing elit t, consectetur adipiscing elit"</div>
-                        <div class="pt-10 md:pt-10 lg:pt-16">
-                            <div class="text-white font-semibold text-xs px-8">Renato Bascuñán - Lead Digital Chilena</div>
+                <div class="flex-1 h-96">
+                    <div class="flex flex-col h-full bg-cover bg-center pt-32" style="background-image: url({{asset('img/client3.png')}}">
+                        <div class="flex-1 text-gray-300 text-xl font-light mb-6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. t, consectetur adipiscing elit t, consectetur adipiscing elit"</div>
+                        <div class="flex-1">
+                            <div class="text-white font-semibold text-xs pt-16">Renato Bascuñán - Lead Digital Chilena</div>
                         </div>
                     </div>
                 </div>
@@ -171,26 +172,20 @@
                 </div>
             </div>
         </section>
-        <footer id="contacto" class="lg:flex bg-black items-center py-4">
-            <div class="lg:flex flex-1 px-2">
-                <div class="flex justify-center text-white text-sm">
-                    <span class="font-semibold">&copy; 2017 </span> <span class="ml-2 font-hairline"> SOHO internet + humana</span>
-                </div>
+        <footer id="contacto" class="flex flex-col md:flex-row bg-black py-4">
+            <div class="flex-1 text-center md:text-left text-white text-sm md:pl-2 lg:pl-4">
+                <span class="font-semibold">&copy; 2017 </span> <span class="ml-2 font-hairline"> SOHO internet + humana</span>
             </div>
-            <div class="lg:flex flex-1 px-2">
-                <div class="flex justify-center text-center text-green-demo text-sm">
-                    <span class="text-center lg:ml-16">Visítanos</span>
-                    <span class="text-center ml-4 lg:ml-16">Escríbenos</span>
-                    <span class="text-center ml-4 lg:ml-16">Llámanos</span>
-                </div>
+            <div class="flex-1 px-2 text-center text-green-demo text-sm">
+                <span>Visítanos</span>
+                <span class="ml-2 lg:ml-16">Escríbenos</span>
+                <span class="ml-2 lg:ml-16">Llámanos</span>
             </div>
-            <div class="lg:flex flex-1 md:px-2">
-                <div class="flex justify-center md:ml-32 text-white text-sm">
-                    <span class="text-center text-blue-800">Facebook</span>
-                    <span class="text-center ml-4 lg:ml-8 text-blue-300">Twitter</span>
-                    <span class="text-center ml-4 lg:ml-8 text-blue-500">Linkedin</span>
-                    <span class="text-center ml-4 lg:ml-8 text-red-400">Youtube</span>
-                </div>
+            <div class="flex-1 text-center md:text-right lg:pr-4 text-white text-sm md:px-2">
+                <span class="text-blue-800">Facebook</span>
+                <span class="ml-2 lg:ml-8 text-blue-300">Twitter</span>
+                <span class="ml-2 lg:ml-8 text-blue-500">Linkedin</span>
+                <span class="ml-2 lg:ml-8 text-red-400">Youtube</span>
             </div>
         </footer>
     </div>
