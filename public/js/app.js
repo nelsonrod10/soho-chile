@@ -19761,7 +19761,7 @@ var render = function() {
               _vm._v(" "),
               _vm._l(_vm.proyecto.tags, function(tag) {
                 return _c("span", { key: tag, staticClass: "underline mr-2" }, [
-                  _vm._v("tag")
+                  _vm._v(_vm._s(tag))
                 ])
               })
             ],
